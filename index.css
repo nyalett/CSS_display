@@ -1,0 +1,55 @@
+head {
+    background-origin: 
+}
+.row {
+    box-sizing: border-box;
+}
+.column {
+    border: 1px solid chocolate ;
+    padding: 2px ;
+    box-sizing: border-box ;
+    display: inline-block ;
+    width: 150px ;
+    height: 150px;
+}
+.parents {
+    position: relative;
+}
+.relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.absolute {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.cub {
+    background-color: rgb(4, 168, 209);
+    border: 10px solid chartreuse ;
+    padding: 2px;
+    border-radius: 50% ;
+    box-sizing: border-box ;
+    width: 50px ;
+    height: 50px;
+    position: relative ;
+    top: -100px ;
+    right: -50px
+}
+.kolo {
+    background-color: rgb(4, 169, 211);
+    border: 1px solid chartreuse ;
+    padding: 2px;
+    box-sizing: border-box ;
+    width: 150px ;
+    height: 150px;
+    position: relative ;
+    top: 0px ;
+    right: 0px; 
+}
